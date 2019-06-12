@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Page</title>
+    <script src="https://kit.fontawesome.com/32bd69efbb.js"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+</head>
+
+<body>
+    <!-- Site Header Section -->
+    <section id="header">
+        <!-- fixes header width -->
+        <div class="fixed-width">
+            <!-- Name in header bar -->
+            <h1 class="name no-margin">Steven Dixon</h1>
+            <!-- Navigation for header -->
+            <nav class="header-nav no-view-sm">
+                <a class="header-nav-items" href="./index.html">About</a>
+                <a>|</a>
+                <a class="header-nav-items" href="./portfolio.html">Portfolio</a>
+                <a>|</a>
+                <a class="header-nav-items header-nav-current" href="./contact.html">Contact</a>
+            </nav>
+            <i class="no-veiw-md fas fa-bars fa-lg"></i>
+        </div>
+    </section>
+    <!-- Main Content Section -->
+    <section id="content">
+        <!-- Wrapper to center main content -->
+        <div class="content-wrapper-center">
+            <h2 class='content-header'>Contact</h2>
+            <hr />
+            <!-- Area for contact form -->
+            <form class="contact-form" action="">
+                <label for="name">Name:</label>
+                <input name="name" type="text" placeholder="Your name"></input>
+                <label for="email" >Email:</label>
+                <input name="email" placeholder="Your Email" type="email">
+                <label for="message">Message:</label>
+                <textarea class="contact-form-message" name="message" placeholder="Your message"></textarea>
+                <button class="contact-form-submit button" type="submit">Sumbit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <section id="footer">
+        <p>&copy; copyright</p>
+    </section>
+</body>
+
+</html>

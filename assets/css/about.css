@@ -1,0 +1,39 @@
+.content-split{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.content-left{
+    width: 100%;
+    height: 350px;   
+}
+
+.content-right{
+    margin-top: 1em;
+    flex-basis: 100%;
+    padding: 0px .5rem;
+    line-height: 1.5em;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .content-split{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .content-left{
+        width: 20%;
+        height: 20%;   
+    }
+    .content-right{
+        margin-top: 0;
+        flex-basis: 70%;
+        padding: 0 .5rem;
+    }
+}

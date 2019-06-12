@@ -1,0 +1,22 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.contact-form > *{
+    margin-top: 1em;
+}
+
+.contact-form > input{
+    padding: .5em;
+}
+
+.contact-form-message{
+    height: 10em;
+}
+
+.contact-form-submit{
+    max-width: 200px;
+    height: 2rem;
+}
