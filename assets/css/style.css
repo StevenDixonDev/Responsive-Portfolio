@@ -27,7 +27,7 @@ h2{
 ul,li,p {
     margin: 10px;
     padding: 5px;
-    
+    font-size: 1.3rem;
 }
 
 li{
@@ -103,6 +103,7 @@ h1,h2,h3,h4,h5,h6{
     flex-direction: column;      
     width: 90%;
     margin: 1em auto;
+    
 }
 
 #content h2{
@@ -112,6 +113,7 @@ h1,h2,h3,h4,h5,h6{
 .content-wrapper-center{
     width: 100%;
     background-color: var(--secondary);
+    
 }
 
 .content-header{
